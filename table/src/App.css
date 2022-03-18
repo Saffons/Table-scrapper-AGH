@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+  font-size:42px;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  border: solid transparent;
+  border-radius: 8px;
+  font-size: 18px;
+}
+.navbar a:hover {
+  color: white;
+  background-color: #ee1b5a;
+  cursor: pointer;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.scraps-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  text-align: center;
+}
+
+.scraps-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.scraps-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+.scrap {
+  text-align: center;
+}
+
+.scrap h1 {
+  font-size: 50px;
+  color:#ec3b70;
+}
+
+.scrap #scrapButton {
+  font-size: 30px;
+  margin: 40px auto;
+}
+
+.scrap #photo {
+  margin-left: 10%;
+}
+
+.scrap input {
+  margin: 10px auto;
+}
+
+.scraps-preview h2:hover {
+  cursor: pointer;
+  border: solid transparent;
+  color: white;
+  background-color: #ee1b5a;
+}
+
